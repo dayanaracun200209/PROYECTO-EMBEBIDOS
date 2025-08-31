@@ -1,19 +1,21 @@
-**Proyecto**
+<div align="center">
 
-**Mecanismo de cerradura automática con reconocimiento facial para acceso seguro.**
+## Mecanismo de cerradura automática con reconocimiento facial para acceso seguro  
 
-**Docente:**
+---
 
-Mera Collantes Maria Isabel
+**Docente:**  
+Mera Collantes María Isabel  
+
+**Estudiante:**  
+Lizbeth Cun Salcedo  
+
+**Periodo:**  
+1S - 2025  
+
+</div>
 
 
-**Estudiante:**
-
-Lizbeth Cun Salcedo
-
-
-
-**1S - 2025**
 ## Tabla de contenido
 
 [***Introducción: Resumen de alto nivel sobre el proyecto y objetivos***	3](#_bookmark0)
@@ -46,22 +48,6 @@ El alcance del proyecto contempla la implementación de un sistema funcional de 
 El plan de pruebas y validación incluyó experimentos con usuarios registrados y no registrados para comprobar el desempeño del sistema en condiciones reales. Se verificó que, al reconocer un rostro válido, la cerradura solenoide se activara correctamente, acompañado de la visualización en el LCD con el mensaje “Acceso autorizado”, la iluminación en verde de los LEDs WS2812B y un tono positivo emitido por el buzzer; mientras que, en caso de un rostro no autorizado, el sistema mostraba “Acceso denegado”, se encendía un LED rojo y el buzzer emitía una señal de alerta. También se validó que la cerradura regresara a su estado de bloqueo tras 10 segundos y que la base de datos registrara de forma precisa la fecha, hora e imagen del intento de acceso. Adicionalmente, se midieron consumos eléctricos (5V/2A en la Raspberry, 11.1V/500 mA en la cerradura y 78 mA en periféricos), confirmando la estabilidad del sistema y su eficiencia energética. Finalmente, se integró un bot de Telegram para la notificación inmediata de eventos, lo cual refuerza la confiabilidad y el monitoreo remoto del proyecto.
 # <a name="_bookmark4"></a>***Diagrama de bloques del Diseño***
 ![Diagrama de bloques del diseño.](2_DIAGRAMA_BLOQUES.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # <a name="_bookmark5"></a>***Diagrama de software o Máquina de Estados***
 ![Maquina de estados.](2_MAQUINAS_ESTADOS.png)
 
